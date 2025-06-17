@@ -1,16 +1,38 @@
 # Movie Recommender System
 This repository contains a movie recommendation system built using collaborative filtering techniques.
-The system provides movie recommendations based on user ratings, with various models like KNN and Matrix Factorization.
-This project uses the **[MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/)**
+The system generates personalized movie recommendations based on user ratings, leveraging models such as KNN and Matrix Factorization.
+The project utilizes the **[MovieLens 1M Dataset](https://grouplens.org/datasets/movielens/1m/)**, which includes 1 million ratings from approximately 6,000 users on 4,000 movies.
 
-## Project Structure
-- `checkpoint/`: Contains trained models for easy reloading and inference.
-- `data/`: Contains CSV files to load movies, user, ratings and image urls.
-- `analysis.ipynb`: Jupyter notebook used to train models, perform data analysis, and evaluate recommendation strategies.
-- `main.py`: Python script that runs the Streamlit web application for the movie recommender system.
+## Table of Contents
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the Application](#running-the-application)
 
-## Install Dependencies
-2025/04: `scikit-surprise` is not compatible with `numpy` versions greater than 2.0. To resolve this, you should install `numpy` with a version lower than 2.0.
+## Prerequisites
+- Python 3.8 or higher
+- Jupyter Notebook (for running `analysis.ipynb`)
+- Streamlit (for running the web application)
+- Access to the MovieLens 1M Dataset (downloaded automatically or placed in the `data/` directory)
 
+**Note**: As of 2025/04, the `scikit-surprise` library is incompatible with `numpy` versions >2.0. Ensure you use `numpy<2.0` to avoid compatibility issues.
+
+## Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/tlbthinh/Movie-Recommendation-V2.git](https://github.com/tlbthinh/Movie-Recommendation-V2.git)
+   cd Movie-Recommendation-V2
+
+2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+## Running the Application
+1. Train Models: Open and run the `analysis.ipyn`b notebook to perform data analysis, train models (KNN, Matrix Factorization), and save trained models to the `checkpoint/` directory.
+2. Launch the Web Application: Run the Streamlit app to interact with the recommender system
+```bash
+streamlit run main.py
+```
+
+![image](https://github.com/user-attachments/assets/d00cf296-71df-4f5f-a366-ffb3cae312f1)
+
