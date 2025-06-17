@@ -19,7 +19,7 @@ The project utilizes the **[MovieLens 1M Dataset](https://grouplens.org/datasets
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/tlbthinh/Movie-Recommendation-V2.git](https://github.com/tlbthinh/Movie-Recommendation-V2.git)
+   git clone https://github.com/tlbthinh/Movie-Recommendation-V2.git
    cd Movie-Recommendation-V2
 
 2. Install dependencies:
