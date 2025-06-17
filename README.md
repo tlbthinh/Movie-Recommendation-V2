@@ -28,7 +28,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the Application
-1. Train Models: Open and run the `analysis.ipyn`b notebook to perform data analysis, train models (KNN, Matrix Factorization), and save trained models to the `checkpoint/` directory.
+1. Train Models: Open and run the `analysis.ipynb` notebook to perform data analysis, train models and save them to the `checkpoint/` directory.
 2. Launch the Web Application: Run the Streamlit app to interact with the recommender system
 ```bash
 streamlit run main.py
