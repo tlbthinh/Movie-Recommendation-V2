@@ -14,3 +14,6 @@ This project uses the **[MovieLens 1M Dataset](https://grouplens.org/datasets/mo
 
 ```bash
 pip install -r requirements.txt
+
+![image](https://github.com/user-attachments/assets/d00cf296-71df-4f5f-a366-ffb3cae312f1)
+
