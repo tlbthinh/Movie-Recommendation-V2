@@ -7,11 +7,6 @@ The project utilizes the **[MovieLens 1M Dataset](https://grouplens.org/datasets
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Running the Application](#running-the-application)
-- [Usage](#usage)
-- [Dataset](#dataset)
-- [Contributing](#contributing)
-- [License](#license)
-
 
 ## Prerequisites
 - Python 3.8 or higher
