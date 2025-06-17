@@ -33,6 +33,6 @@ pip install -r requirements.txt
 ```bash
 streamlit run main.py
 ```
-
-![image](https://github.com/user-attachments/assets/d00cf296-71df-4f5f-a366-ffb3cae312f1)
+https://github.com/tlbthinh/Movie-Recommendation-V2/blob/main/asset/demo.gif
+![Demo of Movie Recommender System](https://github.com/tlbthinh/Movie-Recommendation-V2/blob/main/asset/demo.gif)
 
